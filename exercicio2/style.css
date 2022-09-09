@@ -1,0 +1,18 @@
+header{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: aquamarine;
+    /*position: fixed; ---- fixa o header mas vai se comportar como inline e não vai manter a posição*/
+    position: sticky;
+    top: 0px; /*posiciona o elemento no topo na altura definida*/
+}
+main{
+    border: 1px solid black;
+    height: 1000px;
+    background-color: azure;
+}
+footer{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: darkolivegreen;
+}

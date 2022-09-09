@@ -16,6 +16,7 @@
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative; /*precisou disso para o abolute dar certo*/
   }
   
   section{
@@ -25,14 +26,36 @@
     padding: 20px;
     margin: 10px 0;
   }
+
+  .absoluto{
+    position: absolute; /*Absolute tem que sempre ser relativo onde ele está*/
+    bottom: 0px;
+    right: 10px;
+  }
+
+  .central{
+    text-align: center;
+  }
+  .botao:active{
+     
+    background-color: greenyellow;
+    
+  }
   
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1; /*define o eixo Z do plano cartesiano, servido como "camadas"*/
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
     text-align: center;
+    
+  }
+  footer:hover{
+    background-color: yellow;
   }
