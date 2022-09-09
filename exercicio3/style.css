@@ -1,0 +1,24 @@
+button:hover{
+    color: white;
+    background-color: red;
+}
+button:active{
+    color: red;
+    background-color: pink;
+}
+button{
+    padding: 20px;
+}
+body{
+    text-align: center;
+}
+div{
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: 165px;
+    margin: auto; /*para centralizar com a tela precisa da margin mas precisa de uma largura definida*/
+}
+span{ /* o Span centraliza junto com o text-align colocado ali em cima no Body*/
+    border: 1px solid black;
+    background-color: coral;
+}
